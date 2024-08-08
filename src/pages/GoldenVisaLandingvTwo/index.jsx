@@ -378,22 +378,24 @@ export default function GoldenVisaLandingvTwoPage() {
                       win a UAE Golden Visa.
                     </Text>
                   </div>
-                  <Button
-                    variant="fill"
-                    shape="round"
-                    rightIcon={
-                      <div className="flex h-[36px] w-[36px] items-center justify-center rounded-full bg-dark-0">
-                        <Img
-                          src="images/img_arrowleft_white_0.svg"
-                          alt="Arrow Left"
-                          className="h-[18px] w-[18px]"
-                        />
-                      </div>
-                    }
-                    className="w-full md:w-auto min-w-[200px] md:min-w-[334px] gap-4 capitalize text-xs sm:text-sm md:text-base lg:text-lg"
-                  >
-                    Mint Your OPN Tokens Now
-                  </Button>
+                  <Link to="/GenzTalentProgram">
+                    <Button
+                      variant="fill"
+                      shape="round"
+                      rightIcon={
+                        <div className="flex h-[36px] w-[36px] items-center justify-center rounded-full bg-dark-0">
+                          <Img
+                            src="images/img_arrowleft_white_0.svg"
+                            alt="Arrow Left"
+                            className="h-[18px] w-[18px]"
+                          />
+                        </div>
+                      }
+                      className="w-full md:w-auto min-w-[200px] md:min-w-[334px] gap-4 capitalize text-xs sm:text-sm md:text-base lg:text-lg"
+                    >
+                      Mint Your OPN Tokens Now
+                    </Button>
+                  </Link>
                 </div>
               </div>
               {/* <FooterVisa /> */}
