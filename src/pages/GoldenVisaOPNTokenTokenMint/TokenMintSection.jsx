@@ -15,8 +15,8 @@ export default function TokenMintSection() {
           alt="Background Copy"
           className="absolute bottom-0 right-px top-0 my-auto h-[604px] w-[34%] object-contain opacity-60"
         />
-        <div className="container-xs absolute bottom-0 left-0 right-0 top-0 my-auto flex h-max items-start justify-center lg:px-5 md:relative md:flex-col md:px-5">
-          <div className="flex w-[46%] flex-col md:w-full">
+        <div className="container-xs absolute bottom-0 left-0 right-0 top-0 my-auto flex h-max items-start justify-center max-[1440px]:px-5 max-[1050px]:relative max-[1050px]:flex-col max-[1050px]:px-5">
+          <div className="flex w-[46%] flex-col max-[1050px]:w-full">
             <div className="flex flex-col items-start gap-[18px]">
               <div className="flex rounded-[18px] border border-solid border-dark-0 p-1.5">
                 <Heading as="h2">Token Mint</Heading>
@@ -24,7 +24,7 @@ export default function TokenMintSection() {
               <Text
                 size="visa_desktop_headers_h2"
                 as="p"
-                className="lg:text-[48px]"
+                className="max-[1440px]:text-[48px]"
               >
                 Mint OPN Tokens{" "}
               </Text>
@@ -32,7 +32,7 @@ export default function TokenMintSection() {
             <Text
               size="visa_desktop_body_text_20"
               as="p"
-              className="mt-1 w-[90%] leading-[140%] !text-dark-1 lg:w-full md:w-full sm:text-[15px]"
+              className="mt-1 w-[90%] leading-[140%] !text-dark-1 max-[1440px]:w-full max-[1050px]:w-full max-[550px]:text-[15px]"
             >
               Our token&#39;s minting journey spans 500 days, ensuring a steady
               and controlled release into the market. This gradual approach
@@ -41,7 +41,7 @@ export default function TokenMintSection() {
             <Text
               size="visa_desktop_body_text_20"
               as="p"
-              className="mt-5 w-[90%] leading-[140%] lg:w-full md:w-full sm:text-[15px] sm:mb-6"
+              className="mt-5 w-[90%] leading-[140%] max-[1440px]:w-full max-[1050px]:w-full max-[550px]:text-[15px] max-[550px]:mb-6"
             >
               <span>Act fast! Only&nbsp;</span>
               <span className="font-medium">
@@ -50,13 +50,13 @@ export default function TokenMintSection() {
               </span>
             </Text>
           </div>
-          <div className="flex flex-1 flex-col gap-[60px] self-center md:self-stretch sm:gap-[30px]">
+          <div className="flex flex-1 flex-col gap-[60px] self-center max-[1050px]:self-stretch max-[550px]:gap-[30px]">
             <div className="flex flex-col items-end gap-6">
-              <div className="flex w-[90%] flex-col items-start gap-2 lg:w-full md:w-full">
+              <div className="flex w-[90%] flex-col items-start gap-2 max-[1440px]:w-full max-[1050px]:w-full">
                 <Heading
                   size="visa_desktop_body_label_16"
                   as="h3"
-                  className="!text-grey sm:text-[14px]"
+                  className="!text-grey max-[550px]:text-[14px]"
                 >
                   You will pay
                 </Heading>
@@ -71,10 +71,10 @@ export default function TokenMintSection() {
                       className="h-[26px] w-[32px]"
                     />
                   }
-                  className="self-stretch sm:text-[18px]"
+                  className="self-stretch max-[550px]:text-[18px]"
                 />
               </div>
-              <div className="flex w-[90%] flex-col items-start gap-2 lg:w-full md:w-full">
+              <div className="flex w-[90%] flex-col items-start gap-2 max-[1440px]:w-full max-[1050px]:w-full">
                 <Heading
                   size="visa_desktop_body_label_16"
                   as="h4"
@@ -93,7 +93,7 @@ export default function TokenMintSection() {
                       className="h-[26px] w-[32px]"
                     />
                   }
-                  className="self-stretch sm:text-[18px]"
+                  className="self-stretch max-[550px]:text-[18px]"
                 />
               </div>
             </div>

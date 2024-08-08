@@ -57,11 +57,11 @@ export default function GoldenVisaOPNTokenTokenMintPage() {
         />
       </Helmet>
       <div className="w-full bg-white-0">
-        <div className="flex h-[1000px] items-start justify-center bg-[url(/public/images/img_hero_mint.png)] bg-cover bg-no-repeat py-4 lg:h-auto md:h-auto">
-          <div className="container-xs mb-[254px] flex justify-center px-14 lg:px-5 md:px-5">
-            <div className="flex w-[90%] flex-col gap-[186px] lg:w-full lg:gap-[139px] md:w-full md:gap-[139px] sm:gap-[93px]">
+        <div className="flex h-[1000px] items-start justify-center bg-[url(/public/images/img_hero_mint.png)] bg-cover bg-no-repeat py-4 max-[1440px]:h-auto max-[1050px]:h-auto">
+          <div className="container-xs mb-[254px] flex justify-center px-14 max-[1440px]:px-5 max-[1050px]:px-5">
+            <div className="flex w-[90%] flex-col gap-[186px] max-[1440px]:w-full max-[1440px]:gap-[139px] max-[1050px]:w-full max-[1050px]:gap-[139px] max-[550px]:gap-[93px]">
               <Header />
-              <div className="mx-52 flex flex-col items-center gap-12 md:mx-0">
+              <div className="mx-52 flex flex-col items-center gap-12 max-[1050px]:mx-0">
                 <div className="flex flex-col items-center gap-[30px] self-stretch">
                   <Button
                     color="white_0"
@@ -73,7 +73,7 @@ export default function GoldenVisaOPNTokenTokenMintPage() {
                   <Text
                     size="visa_desktop_headers_h1"
                     as="p"
-                    className="text-shadow-ts1 text-center !text-white-0 lg:text-[48px] sm:text-[38px]"
+                    className="text-shadow-ts1 text-center !text-white-0 max-[1440px]:text-[48px] max-[550px]:text-[38px]"
                   >
                     <>
                       Unlock Your Future
@@ -118,11 +118,11 @@ export default function GoldenVisaOPNTokenTokenMintPage() {
         {/* token mint section */}
         <TokenMintSection />
         <div className="mb-1 mt-[118px] flex flex-col items-center">
-          <div className="container-xs flex flex-col gap-[50px] lg:px-5 md:px-5">
-            <div className="relative h-[1186px] content-center lg:h-auto md:h-auto">
+          <div className="container-xs flex flex-col gap-[50px] max-[1440px]:px-5 max-[1050px]:px-5">
+            <div className="relative h-[1186px] content-center max-[1440px]:h-auto max-[1050px]:h-auto">
               <div className="mx-auto flex flex-1 flex-col gap-4">
-                <div className="flex gap-4 md:flex-col">
-                  <div className="flex w-full flex-col gap-[26px] rounded-[20px] bg-light_base p-12 md:p-5 sm:p-4">
+                <div className="flex gap-4 max-[1050px]:flex-col">
+                  <div className="flex w-full flex-col gap-[26px] rounded-[20px] bg-light_base p-12 max-[1050px]:p-5 max-[550px]:p-4">
                     <div className="flex flex-col items-start gap-6">
                       <div className="flex rounded-[18px] border border-solid border-dark-0 p-1.5">
                         <Heading as="h2">OPN token</Heading>
@@ -130,7 +130,7 @@ export default function GoldenVisaOPNTokenTokenMintPage() {
                       <Text
                         size="visa_desktop_headers_h2"
                         as="p"
-                        className="lg:text-[48px] sm:text-[38px]"
+                        className="max-[1440px]:text-[48px] max-[550px]:text-[38px]"
                       >
                         Referral Program
                       </Text>
@@ -143,12 +143,12 @@ export default function GoldenVisaOPNTokenTokenMintPage() {
                       </Suspense>
                     </div>
                   </div>
-                  <div className="flex w-full flex-col gap-[60px] rounded-[20px] bg-gradient1 p-12 shadow-xs md:p-5 sm:gap-[30px] sm:p-4">
+                  <div className="flex w-full flex-col gap-[60px] rounded-[20px] bg-gradient5 p-12 shadow-xs max-[1050px]:p-5 max-[550px]:gap-[30px] max-[550px]:p-4">
                     <div className="flex flex-col items-start gap-[18px]">
                       <Text
                         size="visa_desktop_headers_h3"
                         as="p"
-                        className="w-[86%] leading-[110%] !text-white-0 lg:w-full md:w-full md:text-[28px] sm:text-[22px]"
+                        className="w-[86%] leading-[110%] !text-white-0 max-[1440px]:w-full max-[1050px]:w-full max-[1050px]:text-[28px] max-[550px]:text-[22px]"
                       >
                         <>
                           Amplify your earnings
@@ -159,7 +159,7 @@ export default function GoldenVisaOPNTokenTokenMintPage() {
                       <Text
                         size="iopn_desktop_body_text_20"
                         as="p"
-                        className="w-[86%] leading-[140%] !text-white-1 lg:w-full md:w-full sm:text-[14px]"
+                        className="w-[86%] leading-[140%] !text-white-1 max-[1440px]:w-full max-[1050px]:w-full max-[550px]:text-[14px]"
                       >
                         Share your unique referral link and earn IOPn tokens for
                         every friend who joins through your link.
@@ -181,7 +181,7 @@ export default function GoldenVisaOPNTokenTokenMintPage() {
                             />
                           </div>
                         }
-                        className="!rounded-[34px] sm:text-[18px] sm:h-[50px]"
+                        className="!rounded-[34px] max-[550px]:text-[18px] max-[550px]:h-[50px]"
                       />
                       <div className="flex flex-col gap-3">
                         <Button
@@ -196,7 +196,7 @@ export default function GoldenVisaOPNTokenTokenMintPage() {
                               />
                             </div>
                           }
-                          className="gap-[34px] self-stretch font-medium capitalize sm:h-[50px]"
+                          className="gap-[34px] self-stretch font-medium capitalize max-[550px]:h-[50px]"
                         >
                           Generate referral link
                         </Button>
@@ -213,13 +213,13 @@ export default function GoldenVisaOPNTokenTokenMintPage() {
                     </div>
                   </div>
                 </div>
-                <div className="flex gap-4 md:flex-col">
+                <div className="flex gap-4 max-[1050px]:flex-col">
                   <Img
                     src="images/img_rectangle_11.png"
                     alt="Cta Image"
-                    className="h-[582px] w-[50%] rounded-[20px] object-contain md:w-full"
+                    className="h-[582px] w-[50%] rounded-[20px] object-contain max-[1050px]:w-full"
                   />
-                  <div className="flex flex-1 flex-col items-start justify-center gap-20 rounded-[20px] border border-solid border-gray-300 bg-white-0 py-16 pl-16 pr-14 shadow-xs lg:gap-20 lg:py-8 lg:pl-8 md:gap-[60px] md:self-stretch md:p-5 sm:gap-10 sm:p-4">
+                  <div className="flex flex-1 flex-col items-start justify-center gap-20 rounded-[20px] border border-solid border-gray-300 bg-white-0 py-16 pl-16 pr-14 shadow-xs max-[1440px]:gap-20 max-[1440px]:py-8 max-[1440px]:pl-8 max-[1050px]:gap-[60px] max-[1050px]:self-stretch max-[1050px]:p-5 max-[550px]:gap-10 max-[550px]:p-4">
                     <div className="flex flex-col gap-5 self-stretch">
                       <div className="flex flex-col items-start gap-[30px]">
                         <Button
@@ -231,7 +231,7 @@ export default function GoldenVisaOPNTokenTokenMintPage() {
                         <Text
                           size="visa_desktop_headers_h2"
                           as="p"
-                          className="w-full leading-[105%] lg:text-[48px] sm:text-[38px]"
+                          className="w-full leading-[105%] max-[1440px]:text-[48px] max-[550px]:text-[38px]"
                         >
                           <>
                             Ready to Invest in
@@ -243,7 +243,7 @@ export default function GoldenVisaOPNTokenTokenMintPage() {
                       <Text
                         size="iopn_desktop_body_text_20"
                         as="p"
-                        className="leading-[140%] !text-dark-1 sm:text-[14px]"
+                        className="leading-[140%] !text-dark-1 max-[550px]:text-[14px]"
                       >
                         Don’t wait! Join the GenZ Talent Program today and take
                         the first step towards a brighter future. Purchase your

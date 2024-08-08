@@ -2,6 +2,7 @@ import { useRoutes } from "react-router-dom";
 import Home from "./pages/Home";
 import GoldenVisaLandingvTwoPage from "./pages/GoldenVisaLandingvTwo";
 import GoldenVisaOPNTokenTokenMintPage from "./pages/GoldenVisaOPNTokenTokenMint";
+import GoldenVisaGenZTalentProgramPage from "./pages/GoldenVisaGenZTalentProgram";
 import NotFound from "./pages/NotFound";
 
 const Routes = () => {
@@ -14,6 +15,10 @@ const Routes = () => {
     {
       path: "/OPNTokenMint",
       element: <GoldenVisaOPNTokenTokenMintPage />,
+    },
+    {
+      path: "/GenzTalentProgram",
+      element: <GoldenVisaGenZTalentProgramPage />,
     },
     { path: "*", element: <NotFound /> },
   ]);

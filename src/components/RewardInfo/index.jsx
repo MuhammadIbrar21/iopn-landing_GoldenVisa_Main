@@ -15,7 +15,7 @@ export default function RewardInfo({
   return (
     <div
       {...props}
-      className={`${props.className} flex sm:flex-col justify-center items-center gap-7 p-3 bg-white-0 flex-1 rounded-[16px] sm:items-start`}
+      className={`${props.className} flex max-[550px]:flex-col justify-center items-center gap-7 p-3 bg-white-0 flex-1 rounded-[16px] max-[550px]:items-start`}
     >
       <Text size="visa_desktop_headers_h3" as="p">
         {rewardPercentage}

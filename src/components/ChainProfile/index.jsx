@@ -11,7 +11,7 @@ export default function ChainProfile({
   return (
     <div
       {...props}
-      className={`${props.className} flex justify-center items-center gap-6 p-6 sm:p-4 border-gray-300 border border-solid bg-white-0 flex-1 rounded-[16px]`}
+      className={`${props.className} flex justify-center items-center gap-6 p-6 max-[550px]:p-4 border-gray-300 border border-solid bg-white-0 flex-1 rounded-[16px]`}
     >
       <Img src={chainImage} alt="Chain Image" className="h-[48px] w-[48px]" />
       <div className="flex flex-1 flex-col items-start gap-2">

@@ -14,7 +14,7 @@ export default function Header({ ...props }) {
         alt="Logo Container"
         className="h-[32px] w-[18%] object-contain"
       />
-      <ul className="flex justify-center gap-10 md:hidden sm:hidden">
+      <ul className="flex justify-center gap-10 max-[1050px]:hidden max-[550px]:hidden">
         <li>
           <a href="#">
             <Text as="p" className="!text-accent-black">

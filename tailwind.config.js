@@ -4,22 +4,25 @@ export default {
   //   "./index.html",
   //   "./src/**/*.{js,ts,jsx,tsx}",
   // ],
-  content: ["./src/**/**/*.{js,ts,jsx,tsx,html,mdx}", "./src/**/*.{js,ts,jsx,tsx,html,mdx}"],
+  content: [
+    "./src/**/**/*.{js,ts,jsx,tsx,html,mdx}",
+    "./src/**/*.{js,ts,jsx,tsx,html,mdx}",
+  ],
   darkMode: "class",
   theme: {
     screens: {
-      'sm': '640px',
-      'md': '768px',
-      'lg': '1024px',
-      'xl': '1280px',
-      '2xl': '1536px',
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
+      "2xl": "1536px",
     },
     extend: {
       flex: {
-        '2': '2 2 0%'
+        2: "2 2 0%",
       },
       colors: {
-        accent: { black: "#000000", blue: "#2472c0" },
+        accent: { black: "#000000", blue: "#2472c0", dark_blue: "#010814" },
         black: { 0: "#000", 900: "#000b26", "900_0c": "#0000000c" },
         blue: {
           300: "#64ccee",
@@ -170,9 +173,15 @@ export default {
           "300_97": "#5fc4ed",
           "300_98": "#5fc4eb",
           "300_99": "#5fc4ec",
+          "800_02": "#0055b7",
           "900_1e": "#0031921e",
         },
-        cyan: { 300: "#60c9e9", "300_01": "#5bc8e9", "300_02": "#5dc9ea", "300_03": "#5ac8ea" },
+        cyan: {
+          300: "#60c9e9",
+          "300_01": "#5bc8e9",
+          "300_02": "#5dc9ea",
+          "300_03": "#5ac8ea",
+        },
         dark: { 0: "#08122a", 1: "#08122ab2", 2: "#08122acc", 3: "#08122a99" },
         gray: {
           "100_00": "#f1f5f900",
@@ -364,24 +373,46 @@ export default {
           "300_99": "#60c7f0",
         },
         stroke: "#e2e8f0",
-        white: { 0: "#ffffff", 1: "#ffffffcc", 2: "#ffffff7f", a700_26: "#ffffff26" },
+        white: {
+          0: "#ffffff",
+          1: "#ffffffcc",
+          2: "#ffffff7f",
+          3: "#ffffffcc",
+          4: "#ffffff99",
+          a700_26: "#ffffff26",
+        },
       },
-      boxShadow: { xs: "0 5px 12px 0 #01113707", sm: "0 5px 12px 0 #01113705", md: "1px 3px 6px 0 #08122a0c" },
+      boxShadow: {
+        xs: "0 5px 12px 0 #01113707",
+        sm: "0 5px 12px 0 #01113705",
+        md: "1px 3px 6px 0 #08122a0c",
+      },
       fontFamily: { outfit: "Outfit" },
       backgroundImage: {
         gradient: "linear-gradient(180deg, #ffffff7f,#ffffff7f)",
         gradient1: "linear-gradient(180deg,#08122a,rgba(8, 18, 42, 0.8))",
-        gradient2: "radial-gradient(circle, #f1f5f9, #f1f5f9 30%, #f1f5f900 70%)",
+        gradient2:
+          "radial-gradient(circle, #f1f5f9, #f1f5f9 30%, #f1f5f900 70%)",
         gradient3: "linear-gradient(90deg, #3982cc,#0055b7)",
         gradient4: "linear-gradient(180deg, #08122A 0%, #08122A 100%)", // New gradient added
-        'gradient-to-r-blue': 'linear-gradient(90deg, #3983CC 0%, #0056B8 100%)',
+        "gradient-to-r-blue":
+          "linear-gradient(90deg, #3983CC 0%, #0056B8 100%)",
+        gradient5: "linear-gradient(45deg, #3982cc,#0055b7)",
+        gradient6:
+          "linear-gradient(270deg, #81a3d100,#81a3d1), url(/public/images/img_timer.png)",
+        gradient8: "linear-gradient(90deg, #3982cc,#0055b7)",
       },
       textShadow: { ts: "0px 6px 10px #0000000c" },
       backgroundColor: {
         // white: "#ffffff",
-        white: { 0: "#ffffff", 1: "#ffffffcc", 2: "#ffffff7f", a700_26: "#ffffff26" },
-      }
+        white: {
+          0: "#ffffff",
+          1: "#ffffffcc",
+          2: "#ffffff7f",
+          a700_26: "#ffffff26",
+        },
+      },
     },
   },
   plugins: [],
-}
+};
