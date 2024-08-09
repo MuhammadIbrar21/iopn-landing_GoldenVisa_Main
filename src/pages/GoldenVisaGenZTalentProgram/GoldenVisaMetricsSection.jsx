@@ -11,7 +11,7 @@ const visaOptionsList = [
     visaDurationText: "Flexible options: 10 years UAE Golden VISA",
   },
   {
-    userImage: "images/img_building_2_streamline_core.svg",
+    userImage: "images/img_building_2_streamline_core copy.svg",
     visaDurationLabel: "Residency Status",
     visaDurationText: "Stable living: Join an inno-vative Web3 Community",
   },
@@ -26,7 +26,7 @@ export default function GoldenVisaMetricsSection() {
   return (
     <>
       {/* golden visa metrics section */}
-      <div className="relative h-[552px] max-[1050px]:h-[140vh] max-[550px]:h-[170vh]">
+      <div className="relative h-[552px] max-[1050px]:h-[110vh] max-[550px]:h-[90vh]">
         <div className="absolute bottom-0 left-0 right-0 top-0 m-auto flex flex-1 flex-col items-center  bg-gradient2 max-[1440px]:py-8 max-[1050px]:py-5 max-[550px]:py-4">
           <div className="container-xs my-10 flex flex-col gap-[98px] max-[1440px]:gap-[98px] max-[1440px]:px-5 max-[1050px]:gap-[73px] max-[1050px]:px-5 max-[550px]:gap-[49px]">
             <div className="mx-[126px] flex flex-col items-center gap-6 px-[30px] max-[1050px]:mx-0 max-[550px]:px-4">

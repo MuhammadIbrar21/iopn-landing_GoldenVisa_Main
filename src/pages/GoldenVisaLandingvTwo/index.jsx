@@ -44,7 +44,7 @@ export default function GoldenVisaLandingvTwoPage() {
                       life-changing UAE Golden Visa!
                     </h5>
                   </div>
-                  <Link to="/OPNTokenMint">
+                  <Link to="/GenzTalentProgram">
                     <Button
                       variant="fill"
                       shape="round"
@@ -378,7 +378,7 @@ export default function GoldenVisaLandingvTwoPage() {
                       win a UAE Golden Visa.
                     </Text>
                   </div>
-                  <Link to="/GenzTalentProgram">
+                  <Link to="/OPNTokenMint">
                     <Button
                       variant="fill"
                       shape="round"

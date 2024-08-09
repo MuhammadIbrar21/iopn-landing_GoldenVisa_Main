@@ -10,7 +10,7 @@ export default function InvestmentProfile({
   return (
     <div
       {...props}
-      className={`${props.className} flex flex-col w-[32%] max-[1050px]:w-full gap-8 p-6 max-[550px]:p-4 bg-light_base rounded-[16px]`}
+      className={`${props.className} flex flex-col w-[32%] max-[1050px]:w-full gap-8 p-6 max-[550px]:p-4 bg-light_base rounded-[16px] max-[1050px]:flex-row max-[550px]:flex-row`}
     >
       <Img
         src={investmentImage}
