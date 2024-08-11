@@ -32,7 +32,7 @@ const Text = ({
 
   return (
     <Component
-      className={`text-dark-3 font-outfit ${className} ${sizes[size]}`}
+      className={`text-black font-outfit ${className} ${sizes[size]}`}
       {...restProps}
     >
       {children}

@@ -27,7 +27,7 @@ export default function HeaderVisa({ ...props }) {
       <Img
         src={headerLogo}
         alt="Header Logo"
-        className="h-12 w-48 object-contain"
+        className="h-12 w-48 object-contain max-[1050px]:w-28"
       />
       <button className="flex lg:hidden" onClick={toggleMenu}>
         <IoMenu className="text-3xl text-gray-500 " />
