@@ -35,7 +35,7 @@ const Button = ({
         (shape && shapes[shape]) || ""
       } ${(size && sizes[size]) || ""} ${
         (variant && variants[variant]?.[color]) || ""
-      } !bg-indigo-500 !text-white-0`}
+      }`}
       {...restProps}
     >
       {!!leftIcon && leftIcon}
