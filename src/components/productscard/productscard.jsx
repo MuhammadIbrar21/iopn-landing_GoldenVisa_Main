@@ -7,21 +7,27 @@ const Productscard = () => {
   const cardData = [
     {
       tag: "Decentralised",
-      title: "OPNChain",
+      p1: "Embraces Blockchain to enable digital sovereignty and permissionless innovation.",
+      p2: "Provides decentralized computing, storage, and identity solutions.",
+      p3: "Puts data ownership and control back into the hands of users.",
       description:
         "A high-performance, environmentally sustainable blockchain that supports censorship-resistant and tamper-proof applications, offering a foundation for decentralized computing and digital asset transactions.",
       image: cardimg1,
     },
     {
       tag: "Cognitive",
-      title: "iCognitive",
+      p1: "Leverages artificial intelligence to enhance the user experience.",
+      p2: "Provides intelligent assistants, personalization, and cognitive services.",
+      p3: "Enables new AI-powered capabilities and applications within the IOPn ecosystem.",
       description:
         "A platform enabling users to build applications without coding, leveraging modular components and AI-enhanced development tools.",
       image: cardimg2,
     },
     {
       tag: "Spatial",
-      title: "OPNVerse",
+      p1: "Utilizes Spatial technologies for user experience.",
+      p2: "Enables the creation of immersive, spatial virtual worlds.",
+      p3: "Allows users to experience and interact with digital environments in new ways.",
       description:
         "A hyper-realistic, AI-empowered, dynamic and immersive platform revolutionizing Web3 experience, empowering entities, fostering community connectivity within a connected digital ecosystem.",
       image: cardimg3,
@@ -60,10 +66,12 @@ const Productscard = () => {
                   {card.tag}
                 </p>
               </div>
-              <h2 className="w-full text-3xl font-medium text-white-0 mt-6">
-                {card.title}
-              </h2>
               <p className="card-description opacity-90">{card.description}</p>
+              <ol className="w-full text-sm list-disc font-medium text-white-0 mt-6 ps-4">
+                <li className="pb-1">{card.p1}</li>
+                <li className="pb-1">{card.p2}</li>
+                <li className="pb-1">{card.p3}</li>
+              </ol>
             </div>
             <div className="card-icon-container">
               <div className="card-icon">→</div>

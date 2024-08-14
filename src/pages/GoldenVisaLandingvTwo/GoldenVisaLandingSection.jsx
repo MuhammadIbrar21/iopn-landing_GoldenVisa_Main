@@ -12,9 +12,9 @@ export default function GoldenVisaLandingSection() {
             <h1 className="text-shadow-ts text-black-900 text-3xl md:text-4xl font-semibold text-center">
               Traditionally, securing a UAE Golden Visa
               <br />
-              requires a significant investment, but the GenZ
+              requires a significant investment, but the IOPn
               <br />
-              Talent Program is changing the game
+              Trailblazer’s Initiative is changing the game
             </h1>
             <p className="self-stretch text-center text-lg font-medium !text-black-900 text-opacity-20">
               With just 10,000 OPN Tokens, currently valued at $500, you can

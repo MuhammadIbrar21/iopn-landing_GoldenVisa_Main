@@ -79,12 +79,12 @@ export default function ExclusivePerksSection() {
                   </>
                 </span>
                 <span className="bg-gradient3 bg-clip-text text-transparent text-2xl sm:text-3xl md:text-4xl lg:text-6xl">
-                  the GenZ Talent Program!
+                  the IOPn Trailblazer’s Initiative!
                 </span>
               </Text>
               <p className="text-2xl text-dark-0 text-center">
-                As a participant in the IOPn GenZ Talent Program, you’re not
-                just entering a draw – you’re opening the door to a world of
+                As a participant in the IOPn Trailblazer’s Initiative, you’re
+                not just entering a draw – you’re opening the door to a world of
                 exclusive benefits and prizes!
               </p>
             </div>
@@ -92,7 +92,127 @@ export default function ExclusivePerksSection() {
           <div className="relative h-[538px] self-stretch overflow-hidden">
             <div className="absolute left-0 top-[17%] m-auto flex w-full justify-center px-14 md:px-5 sm:px-4">
               <div className="flex justify-center lg:w-full md:w-full md:flex-col">
-                <div className="flex w-full justify-center gap-3.5 md:flex-col">
+                <div className="flex w-full justify-center relative gap-3.5 md:flex-col">
+                  <div className="absolute z-10 top-[2vw] left-[44.5vw] cursor-pointer">
+                    <svg
+                      width="145"
+                      height="165"
+                      viewBox="0 0 145 165"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g filter="url(#filter0_dddd_107_2670)">
+                        <rect
+                          x="7"
+                          y="3"
+                          width="100"
+                          height="100"
+                          rx="50"
+                          fill="#08122A"
+                        />
+                        <path
+                          d="M45 45L37 53L45 61"
+                          stroke="white"
+                          stroke-width="1.5"
+                        />
+                        <path
+                          d="M69 45L77 53L69 61"
+                          stroke="white"
+                          stroke-width="1.5"
+                        />
+                      </g>
+                      <defs>
+                        <filter
+                          id="filter0_dddd_107_2670"
+                          x="0"
+                          y="0"
+                          width="145"
+                          height="165"
+                          filterUnits="userSpaceOnUse"
+                          color-interpolation-filters="sRGB"
+                        >
+                          <feFlood
+                            flood-opacity="0"
+                            result="BackgroundImageFix"
+                          />
+                          <feColorMatrix
+                            in="SourceAlpha"
+                            type="matrix"
+                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                            result="hardAlpha"
+                          />
+                          <feOffset dx="1" dy="3" />
+                          <feGaussianBlur stdDeviation="3" />
+                          <feColorMatrix
+                            type="matrix"
+                            values="0 0 0 0 0.0313726 0 0 0 0 0.0705882 0 0 0 0 0.164706 0 0 0 0.05 0"
+                          />
+                          <feBlend
+                            mode="normal"
+                            in2="BackgroundImageFix"
+                            result="effect1_dropShadow_107_2670"
+                          />
+                          <feColorMatrix
+                            in="SourceAlpha"
+                            type="matrix"
+                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                            result="hardAlpha"
+                          />
+                          <feOffset dx="5" dy="11" />
+                          <feGaussianBlur stdDeviation="6" />
+                          <feColorMatrix
+                            type="matrix"
+                            values="0 0 0 0 0.0313726 0 0 0 0 0.0705882 0 0 0 0 0.164706 0 0 0 0.04 0"
+                          />
+                          <feBlend
+                            mode="normal"
+                            in2="effect1_dropShadow_107_2670"
+                            result="effect2_dropShadow_107_2670"
+                          />
+                          <feColorMatrix
+                            in="SourceAlpha"
+                            type="matrix"
+                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                            result="hardAlpha"
+                          />
+                          <feOffset dx="11" dy="24" />
+                          <feGaussianBlur stdDeviation="8" />
+                          <feColorMatrix
+                            type="matrix"
+                            values="0 0 0 0 0.0313726 0 0 0 0 0.0705882 0 0 0 0 0.164706 0 0 0 0.03 0"
+                          />
+                          <feBlend
+                            mode="normal"
+                            in2="effect2_dropShadow_107_2670"
+                            result="effect3_dropShadow_107_2670"
+                          />
+                          <feColorMatrix
+                            in="SourceAlpha"
+                            type="matrix"
+                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                            result="hardAlpha"
+                          />
+                          <feOffset dx="19" dy="43" />
+                          <feGaussianBlur stdDeviation="9.5" />
+                          <feColorMatrix
+                            type="matrix"
+                            values="0 0 0 0 0.0313726 0 0 0 0 0.0705882 0 0 0 0 0.164706 0 0 0 0.01 0"
+                          />
+                          <feBlend
+                            mode="normal"
+                            in2="effect3_dropShadow_107_2670"
+                            result="effect4_dropShadow_107_2670"
+                          />
+                          <feBlend
+                            mode="normal"
+                            in="SourceGraphic"
+                            in2="effect4_dropShadow_107_2670"
+                            result="shape"
+                          />
+                        </filter>
+                      </defs>
+                    </svg>
+                  </div>
                   <SliderContainer>
                     <Slider
                       autoPlay

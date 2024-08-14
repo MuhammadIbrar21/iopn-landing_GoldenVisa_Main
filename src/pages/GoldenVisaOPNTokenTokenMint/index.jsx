@@ -71,7 +71,7 @@ export default function GoldenVisaOPNTokenTokenMintPage() {
                     OPN Token & Mint
                   </Button>
                   <Text
-                    size="visa_desktop_headers_h1"
+                    size="visa_headers_h2"
                     as="p"
                     className="text-shadow-ts1 text-center !text-white-0 max-[1440px]:text-[48px] max-[550px]:text-[38px]"
                   >
@@ -83,7 +83,7 @@ export default function GoldenVisaOPNTokenTokenMintPage() {
                   </Text>
                 </div>
                 <Text
-                  size="visa_desktop_body_text_20"
+                  size="texts"
                   as="p"
                   className="text-shadow-ts text-center !text-white-0"
                 >
@@ -120,15 +120,15 @@ export default function GoldenVisaOPNTokenTokenMintPage() {
         <div className="mb-1 mt-[118px] flex flex-col items-center">
           <div className="container-xs flex flex-col gap-[50px] max-[1440px]:px-5 max-[1050px]:px-5">
             <div className="relative h-[1186px] content-center max-[1440px]:h-auto max-[1050px]:h-auto">
-              <div className="mx-auto flex flex-1 flex-col gap-4">
-                <div className="flex gap-4 max-[1050px]:flex-col">
-                  <div className="flex w-full flex-col gap-[26px] rounded-[20px] bg-light_base p-12 max-[1050px]:p-5 max-[550px]:p-4">
+              <div className="mx-auto flex flex-1 flex-col">
+                <div className="flex max-[1050px]:flex-col">
+                  <div className="flex w-full flex-col relative z-10 gap-[26px] rounded-[20px] bg-light_base p-12 max-[1050px]:p-5 max-[550px]:p-4">
                     <div className="flex flex-col items-start gap-6">
                       <div className="flex rounded-[18px] border border-solid border-dark-0 p-1.5">
                         <Heading as="h2">OPN token</Heading>
                       </div>
                       <Text
-                        size="visa_desktop_headers_h2"
+                        size="visa_headers_h2"
                         as="p"
                         className="max-[1440px]:text-[48px] max-[550px]:text-[38px]"
                       >
@@ -146,7 +146,7 @@ export default function GoldenVisaOPNTokenTokenMintPage() {
                   <div className="flex w-full flex-col gap-[60px] rounded-[20px] bg-gradient5 p-12 shadow-xs max-[1050px]:p-5 max-[550px]:gap-[30px] max-[550px]:p-4">
                     <div className="flex flex-col items-start gap-[18px]">
                       <Text
-                        size="visa_desktop_headers_h3"
+                        size="visa_headers_h3"
                         as="p"
                         className="w-[86%] leading-[110%] !text-white-0 max-[1440px]:w-full max-[1050px]:w-full max-[1050px]:text-[28px] max-[550px]:text-[22px]"
                       >
@@ -213,23 +213,23 @@ export default function GoldenVisaOPNTokenTokenMintPage() {
                     </div>
                   </div>
                 </div>
-                <div className="flex gap-4 max-[1050px]:flex-col">
+                <div className="flex max-[1050px]:flex-col">
                   <Img
-                    src="images/img_rectangle_11.png"
+                    src="images/img_rectangle_11 copy.png"
                     alt="Cta Image"
-                    className="h-[582px] w-[50%] rounded-[20px] object-contain max-[1050px]:w-full"
+                    className="h-[582px] w-[50%] rounded-[20px] max-[1050px]:w-full"
                   />
-                  <div className="flex flex-1 flex-col items-start justify-center gap-20 rounded-[20px] border border-solid border-gray-300 bg-white-0 py-16 pl-16 pr-14 shadow-xs max-[1440px]:gap-20 max-[1440px]:py-8 max-[1440px]:pl-8 max-[1050px]:gap-[60px] max-[1050px]:self-stretch max-[1050px]:p-5 max-[550px]:gap-10 max-[550px]:p-4">
+                  <div className="flex flex-1 relative z-10 flex-col items-start justify-center gap-20 rounded-[20px] border border-solid border-gray-300 bg-white-0 py-16 pl-16 pr-14 shadow-xs max-[1440px]:gap-20 max-[1440px]:py-8 max-[1440px]:pl-8 max-[1050px]:gap-[60px] max-[1050px]:self-stretch max-[1050px]:p-5 max-[550px]:gap-10 max-[550px]:p-4">
                     <div className="flex flex-col gap-5 self-stretch">
                       <div className="flex flex-col items-start gap-[30px]">
                         <Button
                           size="sm"
-                          className="min-w-[134px] rounded-[18px] font-medium uppercase"
+                          className="min-w-[134px] rounded-[18px] !text-black-0 font-medium uppercase"
                         >
                           Get started
                         </Button>
                         <Text
-                          size="visa_desktop_headers_h2"
+                          size="visa_headers_h2"
                           as="p"
                           className="w-full leading-[105%] max-[1440px]:text-[48px] max-[550px]:text-[38px]"
                         >

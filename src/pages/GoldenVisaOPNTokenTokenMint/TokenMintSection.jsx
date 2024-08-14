@@ -22,7 +22,7 @@ export default function TokenMintSection() {
                 <Heading as="h2">Token Mint</Heading>
               </div>
               <Text
-                size="visa_desktop_headers_h2"
+                size="visa_headers_h2"
                 as="p"
                 className="max-[1440px]:text-[48px]"
               >
@@ -118,7 +118,7 @@ export default function TokenMintSection() {
               <div className="flex items-center gap-2.5">
                 <Heading
                   size="iopn_desktop_navigation_button"
-                  as="h5"
+                  as="h1"
                   className="!text-accent-black"
                 >
                   Connect wallet
@@ -128,7 +128,7 @@ export default function TokenMintSection() {
                   size="xs"
                   variant="fill"
                   shape="circle"
-                  className="w-[36px] !rounded-[18px]"
+                  className="w-[36px] !rounded-full !bg-black-0"
                 >
                   <Img src="images/img_arrowleft_white_0.svg" />
                 </Button>

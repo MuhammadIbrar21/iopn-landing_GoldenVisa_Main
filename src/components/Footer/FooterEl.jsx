@@ -41,7 +41,11 @@ const Footer = () => {
               target="_blank"
               className="linkedin social-item"
             >
-              <img src={linkedin} alt="Discord" className="w-16 h-16" />
+              <img
+                src={linkedin}
+                alt="Discord"
+                className="!w-[80px] !h-[80px]"
+              />
             </div>
             <div
               href="https://x.com/IOPn_io"
@@ -87,16 +91,7 @@ const Footer = () => {
               OPN Token
             </span>
             <span className="text-base font-normal w-30 tracking-wide text-[#08122a] cursor-pointer hover:underline hover:text-[#0073e6]">
-              GenZ Talent Program
-            </span>
-            <span className="text-base font-normal w-30 tracking-wide text-[#08122a] cursor-pointer hover:underline hover:text-[#0073e6]">
               OPNChain
-            </span>
-            <span className="text-base font-normal w-30 tracking-wide text-[#08122a] cursor-pointer hover:underline hover:text-[#0073e6]">
-              OPNVerse
-            </span>
-            <span className="text-base font-normal w-30 tracking-wide text-[#08122a] cursor-pointer hover:underline hover:text-[#0073e6]">
-              iCognative
             </span>
             <span>
               <button className="font-medium flex flex-row justify-center items-center gap-4 border border-[#08122a] rounded-3xl transition-all ease-linear duration-100 px-1 ps-5 py-1 group hover:bg-[#003366] hover:text-white-0">

@@ -5,7 +5,7 @@ const Partnership = () => {
         <div className="max-w-full md:text-center lg:text-left lg:max-w-3xl text-white-0">
           <div className="tagline">
             <p className="inline-block px-3 py-2 bg-[#fff] !text-black-0 rounded-2xl text-sm mb-2.5 font-extralight">
-              Strategic Program
+              Strategic Partnership
             </p>
           </div>
           <h2 className="text-4xl mb-4 font-medium">

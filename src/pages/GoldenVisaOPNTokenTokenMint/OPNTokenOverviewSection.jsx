@@ -54,12 +54,12 @@ export default function OPNTokenOverviewSection() {
           <div className="mx-[126px] flex flex-col items-center gap-[30px] max-[1050px]:mx-0">
             <Button
               size="sm"
-              className="min-w-[180px] rounded-[18px] font-medium uppercase"
+              className="min-w-[180px] rounded-[18px] font-medium uppercase border border-dark-1 pe-2 !text-black-0"
             >
               About OPN Token
             </Button>
             <Text
-              size="visa_desktop_headers_h2"
+              size="visa_headers_h2"
               as="p"
               className="self-stretch text-center leading-[105%] max-[1440px]:text-[48px] max-[550px]:text-[38px]"
             >
@@ -71,14 +71,14 @@ export default function OPNTokenOverviewSection() {
               <div className="flex w-full flex-col gap-[60px] rounded-[20px] bg-light_base p-10 max-[550px]:gap-[30px] max-[550px]:p-4">
                 <div className="flex flex-col items-start gap-3.5">
                   <Text
-                    size="visa_desktop_headers_h3"
+                    size="visa_headers_h3"
                     as="p"
                     className="max-[1050px]:text-[28px] max-[550px]:text-[22px]"
                   >
                     What is the OPN Token?
                   </Text>
                   <Text
-                    size="visa_desktop_body_text_20"
+                    size="iopn_desktop_body_text_20"
                     as="p"
                     className="w-full leading-[140%] !text-dark-1 max-[550px]:text-[14px]"
                   >
@@ -103,14 +103,14 @@ export default function OPNTokenOverviewSection() {
               <div className="flex w-full flex-col gap-12 rounded-[20px] border border-solid border-gray-300 bg-white-0 p-10 shadow-xs max-[550px]:p-4">
                 <div className="flex flex-col items-start gap-3.5">
                   <Text
-                    size="visa_desktop_headers_h3"
+                    size="visa_headers_h3"
                     as="p"
                     className="max-[1050px]:text-[28px] max-[550px]:text-[22px]"
                   >
                     Benefits of OPN Token
                   </Text>
                   <Text
-                    size="visa_desktop_body_text_20"
+                    size="iopn_desktop_body_text_20"
                     as="p"
                     className="w-full leading-[140%] !text-dark-1 max-[550px]:text-[14px]"
                   >
@@ -131,9 +131,9 @@ export default function OPNTokenOverviewSection() {
             <div className="flex gap-4 max-[1050px]:flex-col">
               <div className="flex w-[32%] flex-col gap-[140px] rounded-[20px] bg-gradient5 p-12 max-[1440px]:gap-[105px] max-[1050px]:w-full max-[1050px]:gap-[105px] max-[1050px]:p-5 max-[550px]:gap-[70px] max-[550px]:p-4">
                 <Text
-                  size="visa_desktop_headers_h3"
+                  size="visa_headers_h3"
                   as="p"
-                  className="leading-[110%] !text-white-0 max-[1050px]:text-[28px] max-[550px]:text-[22px]"
+                  className="leading-[110%] !text-[48px] !text-white-0 max-[1050px]:text-[28px] max-[550px]:text-[22px]"
                 >
                   OPN Token Technical Specifications
                 </Text>
@@ -148,7 +148,7 @@ export default function OPNTokenOverviewSection() {
               </div>
               <div className="h-[616px] flex-1 bg-[url(/public/images/img_chart_legend.svg)] bg-cover bg-no-repeat max-[1440px]:h-auto max-[1050px]:h-auto max-[1050px]:self-stretch">
                 <div className="mt-12 flex items-start justify-between gap-5 max-[1050px]:flex-col">
-                  <div className="ml-[62px] mt-3.5 flex h-[488px] w-[52%] flex-col items-center justify-center bg-[url(/public/images/img_chart_mint.png)] bg-cover bg-no-repeat px-14 py-52 max-[1440px]:bg-[length:100%_100%] max-[1440px]:py-8 max-[1050px]:ml-0 max-[1050px]:h-[800px] max-[1050px]:bg-[length:100%_100%] max-[1050px]:w-full max-[1050px]:p-5 max-[550px]:p-4 max-[550px]:h-[390px]">
+                  <div className="ml-[62px] mt-3.5 flex h-[488px] w-[52%] flex-col items-center justify-center bg-[url(/public/images/img_chart_mint.png)] bg-[length:100%_100%] bg-no-repeat px-14 py-52 max-[1440px]:bg-[length:100%_100%] max-[1440px]:py-8 max-[1050px]:ml-0 max-[1050px]:h-[800px] max-[1050px]:bg-[length:100%_100%] max-[1050px]:w-full max-[1050px]:p-5 max-[550px]:p-4 max-[550px]:h-[390px]">
                     <div className="flex flex-col items-center">
                       <Heading
                         size="visa_desktop_headers_h4"
@@ -169,14 +169,14 @@ export default function OPNTokenOverviewSection() {
                   <div className="flex w-[38%] flex-col gap-[84px] self-center max-[1440px]:gap-[84px] max-[1050px]:w-full max-[1050px]:gap-[63px] max-[550px]:gap-[42px]">
                     <div className="flex flex-col items-start gap-[18px] max-[1050px]:ml-4 max-[550px]:ml-4">
                       <Text
-                        size="visa_desktop_headers_h3"
+                        size="visa_headers_h3"
                         as="p"
                         className="w-[76%] leading-[110%] max-[1440px]:w-full max-[1050px]:w-full max-[1050px]:text-[28px] max-[550px]:text-[22px]"
                       >
                         Token Allocation
                       </Text>
                       <Text
-                        size="visa_desktop_body_text_20"
+                        size="iopn_desktop_body_text_20"
                         as="p"
                         className="w-[86%] leading-[140%] !text-dark-1 max-[1440px]:w-full max-[1050px]:w-full"
                       >

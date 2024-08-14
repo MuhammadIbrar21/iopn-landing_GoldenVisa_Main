@@ -12,7 +12,7 @@ const sizes = {
     "text-[44px] font-normal not-italic lg:text-[37px] md:text-[40px] sm:text-[34px]",
   visa_body_text_18: "text-[18px] font-normal not-italic lg:text-[15px]",
   iopn_desktop_body_text_20:
-    "text-[20px] font-normal not-italic lg:text-[17px]",
+    "text-[20px] font-normal not-italic lg:text-[20px]",
   iopn_desktop_body_text_16:
     "text-[16px] font-normal not-italic lg:text-[13px]",
   textxs: "text-[18px] font-normal not-italic lg:text-[15px]",

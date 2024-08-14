@@ -69,7 +69,7 @@ export default function HeaderVisa({ ...props }) {
           </a>
         </li>
       </ul>
-      <Button
+      {/* <Button
         color="dark_0"
         variant="fill"
         shape="round"
@@ -85,7 +85,7 @@ export default function HeaderVisa({ ...props }) {
         className="hidden lg:flex min-w-[156px] gap-4 capitalize"
       >
         Contact
-      </Button>
+      </Button> */}
       {isOpen && (
         <div className="fixed inset-0 z-50 flex w-64 shadow-xl flex-col bg-white-0 p-3 transform transition-transform duration-300">
           <div className="flex justify-between items-center">
@@ -134,7 +134,7 @@ export default function HeaderVisa({ ...props }) {
                 </Text>
               </a>
             </li>
-            <Button
+            {/* <Button
               color="dark_0"
               variant="fill"
               shape="round"
@@ -150,7 +150,7 @@ export default function HeaderVisa({ ...props }) {
               className="min-w-[156px] gap-4 capitalize mt-4"
             >
               Contact
-            </Button>
+            </Button> */}
           </ul>
         </div>
       )}

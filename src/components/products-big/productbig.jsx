@@ -14,7 +14,7 @@ const Productbig = () => {
               <h1 className="w-full text-4xl font-medium text-[#08122A]">
                 OPNChain
               </h1>
-              <p className="opnchain-pb-text-p text-lg opacity-70 mt-5">
+              <p className="opnchain-pb-text-p text-[1rem] opacity-70 mt-5">
                 Experience a high-performance blockchain that prioritizes
                 censorship resistance, environmental sustainability, and user
                 empowerment.

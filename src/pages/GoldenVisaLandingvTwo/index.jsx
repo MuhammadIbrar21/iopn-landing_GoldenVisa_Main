@@ -31,17 +31,17 @@ export default function GoldenVisaLandingvTwoPage() {
                   <div className="flex flex-col items-center gap-5 self-stretch w-[32vw] text-center mx-auto">
                     <Button
                       size="xs"
-                      className="min-w-64 rounded-2xl uppercase"
+                      className="min-w-72 rounded-2xl uppercase"
                     >
-                      Join the GenZ Talent Program
+                      JOIN THE IOPn TRAILBLAZER’S INITIATIVE
                     </Button>
-                    <h1 className="text-shadow-ts !text-white-0 text-3xl md:text-6xl w-full text-center">
-                      Unlock Your Future With an UAE Golden Visa!
+                    <h1 className="text-shadow-ts !text-white-0 text-3xl md:text-5xl w-full text-center">
+                      Shape Your Future with the IOPn Trailblazer’s Initiative!!
                     </h1>
                     <h5 className="text-white-0">
-                      Join the IOPn GenZ Talent Program and turn your dreams
-                      into reality. Secure your spot in the monthly draw for a
-                      life-changing UAE Golden Visa!
+                      Join the IOPn Trailblazer’s Initiative and turn your
+                      dreams into reality. Secure your spot in the innovative
+                      draw for a life-changing UAE Golden Visa!
                     </h5>
                   </div>
                   <Link to="/GenzTalentProgram">
@@ -84,25 +84,28 @@ export default function GoldenVisaLandingvTwoPage() {
                   className="h-[600px] w-full absolute z-10"
                 />
                 <div className="relative flex flex-col items-center gap-5 py-10 md:py-20 w-[60vw] text-center mx-auto">
-                  <Button size="xs" className="uppercase">
-                    About the GenZ Talent Program
+                  <Button
+                    size="sm"
+                    className="rounded-full pe-3 !text-sm uppercase"
+                  >
+                    ABOUT THE IOPn TRAILBLAZER’S INITIATIVE
                   </Button>
                   <h2 className="text-shadow-ts !text-white-0 !text-center md:text-left text-4xl md:text-6xl">
-                    <span className="text-white-0">What is the</span>
+                    <span className="text-white-0">What is</span>
                     <br />
                     <span className="text-blue-400">
-                      IOPn GenZ Talent Program
+                      IOPn Trailblazer’s Initiative
                     </span>{" "}
                     ?
                   </h2>
-                  <p className="w-full !text-center md:text-left !text-white-0 text-lg md:text-xl">
-                    Imagine a future where the only limit is your ambition. The
-                    GenZ Talent Program, in partnership with the visionary RAK
-                    Government, offers you the chance to obtain a coveted UAE
-                    Golden Visa. This program is designed to break down barriers
-                    and democratize opportunities, making it easier than ever
-                    for exceptional talents from around the world to thrive in
-                    the UAE.
+                  <p className="w-full !text-center md:text-left !text-white-0 !text-sm md:text-lg">
+                    Imagine a future where the only limit is your ambition. IOPn
+                    Trailblazer’s Initiative is a pioneering program designed to
+                    empower exceptional talents from around the world. In
+                    partnership with the visionary RAK Government this
+                    initiative offers a unique pathway to the UAE’s Golden Visa.
+                    Our mission is to nurture innovation and attract the world’s
+                    best talent to the region to build the future.
                   </p>
                   {/* <p className="w-full !text-center md:text-left !text-white-0 text-lg md:text-xl">
                     Traditionally, securing a UAE Golden Visa requires a
@@ -372,10 +375,10 @@ export default function GoldenVisaLandingvTwoPage() {
                       as="p"
                       className="leading-[140%] !text-white-1"
                     >
-                      Don’t wait! Join the GenZ Talent Program today and take
-                      the first step towards a brighter future. Mint your OPN
-                      Tokens now and enter the monthly draw for your chance to
-                      win a UAE Golden Visa.
+                      Don’t wait! Join the IOPn Trailblazer’s Initiative today
+                      and take the first step towards a brighter future. Mint
+                      your OPN Tokens now and enter the monthly draw for your
+                      chance to win a UAE Golden Visa.
                     </Text>
                   </div>
                   <Link to="/OPNTokenMint">

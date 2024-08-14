@@ -17,11 +17,7 @@ export default function InvestmentProfile({
         alt="Investment Image"
         className="h-[32px] w-[32px]"
       />
-      <Heading
-        size="visa_desktop_headers_h6"
-        as="p"
-        className="w-full leading-[130%]"
-      >
+      <Heading size="visa_headers_h5" as="p" className="w-full leading-[130%]">
         {investmentText}
       </Heading>
     </div>

@@ -11,13 +11,6 @@ const benefitsGrid = [
       "10-Year automatically renewable Golden Visa with right to live in any of the seven emirates in the UAE",
   },
   {
-    industryImage: "images/img_earth_airplane.svg",
-    careerGrowthText: "Global Mobility",
-    accessTopTierText: (
-      <>Enjoy easier travel within the region and explore new cultures.</>
-    ),
-  },
-  {
     industryImage: "images/img_health_care_2.svg",
     careerGrowthText: "Family Inclusion",
     accessTopTierText:
@@ -28,6 +21,13 @@ const benefitsGrid = [
     careerGrowthText: "Entrepreneurial Opportunities",
     accessTopTierText:
       "Establish your business in the UAE with 3-Year Free Business License.",
+  },
+  {
+    industryImage: "images/img_earth_airplane.svg",
+    careerGrowthText: "Global Mobility",
+    accessTopTierText: (
+      <>Enjoy easier travel within the region and explore new cultures.</>
+    ),
   },
   {
     industryImage: "images/img_signal_full_streamline_core.svg",
@@ -42,8 +42,8 @@ const benefitsGrid = [
   },
   {
     industryImage: "images/img_global_learning.svg",
-    careerGrowthText: "Educational Excellence",
-    accessTopTierText: "Enhance your resume with international experience",
+    careerGrowthText: "Financial Freedom",
+    accessTopTierText: "Access to UAE Banking IBAN",
   },
 ];
 
